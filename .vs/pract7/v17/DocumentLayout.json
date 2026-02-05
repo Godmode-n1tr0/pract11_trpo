@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\st310-07\\Documents\\Shengals\\pract-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6A2750C-CA67-437F-BBE4-2A86070DE1FA}|pract7.csproj|c:\\users\\st310-07\\documents\\shengals\\pract-main\\pages\\createpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B6A2750C-CA67-437F-BBE4-2A86070DE1FA}|pract7.csproj|solutionrelative:pages\\createpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B6A2750C-CA67-437F-BBE4-2A86070DE1FA}|pract7.csproj|c:\\users\\st310-07\\documents\\shengals\\pract-main\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B6A2750C-CA67-437F-BBE4-2A86070DE1FA}|pract7.csproj|solutionrelative:pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A2750C-CA67-437F-BBE4-2A86070DE1FA}|pract7.csproj|c:\\users\\st310-07\\documents\\shengals\\pract-main\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B6A2750C-CA67-437F-BBE4-2A86070DE1FA}|pract7.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6A2750C-CA67-437F-BBE4-2A86070DE1FA}|pract7.csproj|c:\\users\\st310-07\\documents\\shengals\\pract-main\\themes\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B6A2750C-CA67-437F-BBE4-2A86070DE1FA}|pract7.csproj|solutionrelative:themes\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6A2750C-CA67-437F-BBE4-2A86070DE1FA}|pract7.csproj|c:\\users\\st310-07\\documents\\shengals\\pract-main\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B6A2750C-CA67-437F-BBE4-2A86070DE1FA}|pract7.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B6A2750C-CA67-437F-BBE4-2A86070DE1FA}|pract7.csproj|c:\\users\\st310-07\\documents\\shengals\\pract-main\\pages\\createpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B6A2750C-CA67-437F-BBE4-2A86070DE1FA}|pract7.csproj|solutionrelative:pages\\createpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6A2750C-CA67-437F-BBE4-2A86070DE1FA}|pract7.csproj|c:\\users\\st310-07\\documents\\shengals\\pract-main\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -39,18 +43,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AppointmentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\Shengals\\pract-main\\Pages\\AppointmentPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\AppointmentPage.xaml",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\Shengals\\pract-main\\Pages\\AppointmentPage.xaml",
+              "RelativeToolTip": "Pages\\AppointmentPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-05T04:59:53.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CreatePatientPage.xaml",
               "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\Shengals\\pract-main\\Pages\\CreatePatientPage.xaml",
               "RelativeDocumentMoniker": "Pages\\CreatePatientPage.xaml",
               "ToolTip": "C:\\Users\\st310-07\\Documents\\Shengals\\pract-main\\Pages\\CreatePatientPage.xaml",
               "RelativeToolTip": "Pages\\CreatePatientPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-05T04:49:49.612Z",
+              "WhenOpened": "2026-02-05T04:58:23.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\Shengals\\pract-main\\Pages\\MainPage.xaml",
               "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
@@ -62,19 +78,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DarkTheme.xaml",
               "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\Shengals\\pract-main\\Themes\\DarkTheme.xaml",
               "RelativeDocumentMoniker": "Themes\\DarkTheme.xaml",
               "ToolTip": "C:\\Users\\st310-07\\Documents\\Shengals\\pract-main\\Themes\\DarkTheme.xaml",
               "RelativeToolTip": "Themes\\DarkTheme.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-05T04:37:50.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T04:37:50.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\Shengals\\pract-main\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -86,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LightTheme.xaml",
               "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\Shengals\\pract-main\\Themes\\LightTheme.xaml",
               "RelativeDocumentMoniker": "Themes\\LightTheme.xaml",
