@@ -17,6 +17,12 @@
     <Color x:Key="ListViewBackgroundColor">#FFFFFF</Color>
     <Color x:Key="ListViewHoverColor">#F0F6F8</Color>
 
+    <Color x:Key="PrimaryLightColor">#7ADBD6</Color>
+    <Color x:Key="PrimaryDarkColor">#1F8A84</Color>
+    <Color x:Key="SecondaryLightColor">#7FC1F0</Color>
+    <Color x:Key="SecondaryDarkColor">#1A6FA0</Color>
+    <Color x:Key="SeparatorColor">#E1E8ED</Color>
+
     <SolidColorBrush x:Key="WindowBackground" Color="{StaticResource WindowBackgroundColor}"/>
     <SolidColorBrush x:Key="CardBackground" Color="{StaticResource CardBackgroundColor}"/>
     <SolidColorBrush x:Key="TitleText" Color="{StaticResource TitleTextColor}"/>
@@ -31,6 +37,52 @@
     <SolidColorBrush x:Key="BorderBrush" Color="{StaticResource BorderColor}"/>
     <SolidColorBrush x:Key="ListViewBackground" Color="{StaticResource ListViewBackgroundColor}"/>
     <SolidColorBrush x:Key="ListViewHover" Color="{StaticResource ListViewHoverColor}"/>
+
+    <SolidColorBrush x:Key="PrimaryHueLightBrush" Color="{StaticResource PrimaryLightColor}"/>
+    <SolidColorBrush x:Key="PrimaryHueLightForegroundBrush" Color="{StaticResource TitleTextColor}"/>
+    <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="{StaticResource PrimaryButtonColor}"/>
+    <SolidColorBrush x:Key="PrimaryHueMidForegroundBrush" Color="White"/>
+    <SolidColorBrush x:Key="PrimaryHueDarkBrush" Color="{StaticResource PrimaryDarkColor}"/>
+    <SolidColorBrush x:Key="PrimaryHueDarkForegroundBrush" Color="White"/>
+
+    <SolidColorBrush x:Key="SecondaryHueLightBrush" Color="{StaticResource SecondaryLightColor}"/>
+    <SolidColorBrush x:Key="SecondaryHueLightForegroundBrush" Color="White"/>
+    <SolidColorBrush x:Key="SecondaryHueMidBrush" Color="{StaticResource AccentColor}"/>
+    <SolidColorBrush x:Key="SecondaryHueMidForegroundBrush" Color="White"/>
+    <SolidColorBrush x:Key="SecondaryHueDarkBrush" Color="{StaticResource SecondaryDarkColor}"/>
+    <SolidColorBrush x:Key="SecondaryHueDarkForegroundBrush" Color="White"/>
+
+    <SolidColorBrush x:Key="MaterialDesignPaper" Color="{StaticResource WindowBackgroundColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignCardBackground" Color="{StaticResource CardBackgroundColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignBackground" Color="{StaticResource WindowBackgroundColor}"/>
+
+    <SolidColorBrush x:Key="MaterialDesignTextBoxBackground" Color="{StaticResource InputBackgroundColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignTextBoxBorder" Color="{StaticResource BorderColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignComboBoxBackground" Color="{StaticResource InputBackgroundColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignDatePickerBackground" Color="{StaticResource InputBackgroundColor}"/>
+
+    <SolidColorBrush x:Key="MaterialDesignBody" Color="{StaticResource PrimaryTextColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignBodyLight" Color="{StaticResource SecondaryTextColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignText" Color="{StaticResource PrimaryTextColor}"/>
+
+    <SolidColorBrush x:Key="MaterialDesignHeadlineText" Color="{StaticResource TitleTextColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignTitleText" Color="{StaticResource TitleTextColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignSubheadText" Color="{StaticResource PrimaryTextColor}"/>
+
+    <SolidColorBrush x:Key="PrimaryButtonBackground" Color="{StaticResource PrimaryButtonColor}"/>
+    <SolidColorBrush x:Key="PrimaryButtonForeground" Color="White"/>
+    <SolidColorBrush x:Key="DangerButtonBackground" Color="{StaticResource DangerButtonColor}"/>
+    <SolidColorBrush x:Key="DangerButtonForeground" Color="White"/>
+
+    <SolidColorBrush x:Key="ValidationErrorBackground" Color="{StaticResource ErrorBackgroundColor}"/>
+    <SolidColorBrush x:Key="ValidationErrorBorder" Color="{StaticResource ErrorBorderColor}"/>
+
+    <SolidColorBrush x:Key="MaterialDesignDivider" Color="{StaticResource SeparatorColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignSeparatorBackground" Color="{StaticResource SeparatorColor}"/>
+
+    <SolidColorBrush x:Key="MaterialDesignToolBarBackground" Color="{StaticResource CardBackgroundColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignScrollBar" Color="{StaticResource SecondaryTextColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignSelection" Color="{StaticResource PrimaryLightColor}"/>
 
     <Style x:Key="PageTitleStyle" TargetType="TextBlock">
         <Setter Property="Foreground" Value="{StaticResource TitleText}"/>
@@ -55,7 +107,7 @@
 
     <Style x:Key="DefaultLabelStyle" TargetType="Label">
         <Setter Property="Foreground" Value="{StaticResource PrimaryText}"/>
-        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
         <Setter Property="Margin" Value="0,0,8,0"/>
     </Style>
 
@@ -107,7 +159,7 @@
         <Setter Property="BorderThickness" Value="1"/>
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="Margin" Value="0,4,0,8"/>
-        <Setter Property="MinHeight" Value="36"/>
+        <Setter Property="MinHeight" Value="20"/>
         <Setter Property="Padding" Value="8"/>
     </Style>
 
@@ -117,7 +169,7 @@
         <Setter Property="BorderBrush" Value="{StaticResource PrimaryButton}"/>
         <Setter Property="BorderThickness" Value="1"/>
         <Setter Property="Padding" Value="16,8"/>
-        <Setter Property="Margin" Value="4"/>
+        <Setter Property="Margin" Value="5"/>
         <Setter Property="Cursor" Value="Hand"/>
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="FontWeight" Value="SemiBold"/>
@@ -258,7 +310,7 @@
         <Setter Property="Foreground" Value="White"/>
         <Setter Property="BorderBrush" Value="{StaticResource PrimaryButton}"/>
         <Setter Property="BorderThickness" Value="1"/>
-        <Setter Property="Padding" Value="12,6"/>
+        <Setter Property="Padding" Value="6,3"/>
         <Setter Property="Margin" Value="5"/>
         <Setter Property="Cursor" Value="Hand"/>
         <Setter Property="FontWeight" Value="SemiBold"/>
@@ -302,9 +354,21 @@
         <Setter Property="CornerRadius" Value="4"/>
         <Setter Property="Padding" Value="8"/>
     </Style>
-    <Style x:Key="DefaultSeparatorStyle" TargetType="Separator" BasedOn="{StaticResource MaterialSeparator}"/>
+    <Style x:Key="DefaultSeparatorStyle" TargetType="Separator">
+        <Setter Property="Margin" Value="10,0"/>
+        <Setter Property="Background" Value="{StaticResource BorderBrush}"/>
+    </Style>
     <Style x:Key="DefaultStackPanelStyle" TargetType="StackPanel">
-        <Setter Property="Margin" Value="7"/>
+        <Setter Property="Margin" Value="3"/>
+    </Style>
+
+    <Style x:Key="AppointmentTextBoxStyle" TargetType="TextBox">
+        <Setter Property="Margin" Value="5 30 5 5"/>
+        <Setter Property="Padding" Value="4"/>
+        <Setter Property="Height" Value="70"/>
+        <Setter Property="Background" Value="{StaticResource InputBackground}"/>
+        <Setter Property="Foreground" Value="{StaticResource PrimaryText}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
     </Style>
 
 </ResourceDictionary>

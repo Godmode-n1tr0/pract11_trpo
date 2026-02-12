@@ -5,7 +5,7 @@
       Background="{DynamicResource WindowBackground}"
       Title="Прием"
       Width="450"
-      Height="470">
+      Height="430">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="35"/>
@@ -14,12 +14,12 @@
             <RowDefinition Height="35"/>
             <RowDefinition Height="35"/>
             <RowDefinition Height="100"/>
-            <RowDefinition Height="150"/>
+            <RowDefinition Height="110"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="130"/>
-            <ColumnDefinition Width="310"/>
+            <ColumnDefinition Width="125"/>
+            <ColumnDefinition Width="325"/>
         </Grid.ColumnDefinitions>
 
         <Label Grid.Row="0" Grid.Column="0" Content="Пациент:" Style="{StaticResource DefaultLabelStyle}"/>
@@ -47,9 +47,9 @@
         </ListView>
 
         <Label Grid.Row="6" Grid.Column="0" Content="Рекомендации:" Style="{StaticResource DefaultLabelStyle}"/>
-        <TextBox x:Name="RecommendationsBox" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource AppointmentTextBoxStyle}" Height="100" VerticalAlignment="Top"/>
+        <TextBox x:Name="RecommendationsBox" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource AppointmentTextBoxStyle}" VerticalAlignment="Top"/>
 
-        <Button Grid.Row="8" Grid.Column="0" Content="Сохранить прием" Click="SaveAppointment_Click" Style="{StaticResource StandardButtonStyle}" Width="115" Height="25"/>
-        <Button Grid.Row="8" Grid.Column="1" Content="Назад" Click="BackButton_Click" Style="{StaticResource StandardButtonStyle}" Width="80" Height="25"/>
+        <Button Grid.Row="8" Grid.Column="0" Content="Сохранить" Click="SaveAppointment_Click" Style="{StaticResource StandardButtonStyle}" Width="110" Height="auto"/>
+        <Button Grid.Row="8" Grid.Column="1" Content="Назад" Click="BackButton_Click" Style="{StaticResource StandardButtonStyle}" Width="100" Height="auto"/>
     </Grid>
 </Page>
