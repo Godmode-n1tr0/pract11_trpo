@@ -1,0 +1,357 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes">
+
+    <Color x:Key="WindowBackgroundColor">#1E2A32</Color>
+    <Color x:Key="CardBackgroundColor">#2A3C46</Color>
+    <Color x:Key="TitleTextColor">#D6F4FF</Color>
+    <Color x:Key="PrimaryTextColor">#E4E8EB</Color>
+    <Color x:Key="SecondaryTextColor">#A1B4BF</Color>
+    <Color x:Key="PrimaryButtonColor">#33B8B1</Color>
+    <Color x:Key="DangerButtonColor">#E65A4F</Color>
+    <Color x:Key="InputBackgroundColor">#324650</Color>
+    <Color x:Key="AccentColor">#4FC3C7</Color>
+    <Color x:Key="ErrorBackgroundColor">#3B1E1E</Color>
+    <Color x:Key="ErrorTextColor">#FFB3B3</Color>
+    <Color x:Key="BorderColor">#3C4D55</Color>
+    <Color x:Key="ListViewBackgroundColor">#2A3C46</Color>
+    <Color x:Key="ListViewHoverColor">#324650</Color>
+
+    <Color x:Key="PrimaryLightColor">#5CCCC6</Color>
+    <Color x:Key="PrimaryDarkColor">#1F8A84</Color>
+    <Color x:Key="SecondaryLightColor">#82E0E6</Color>
+    <Color x:Key="SecondaryDarkColor">#2A9BA0</Color>
+    <Color x:Key="SeparatorColor">#3C4D55</Color>
+
+    <SolidColorBrush x:Key="WindowBackground" Color="{StaticResource WindowBackgroundColor}"/>
+    <SolidColorBrush x:Key="CardBackground" Color="{StaticResource CardBackgroundColor}"/>
+    <SolidColorBrush x:Key="TitleText" Color="{StaticResource TitleTextColor}"/>
+    <SolidColorBrush x:Key="PrimaryText" Color="{StaticResource PrimaryTextColor}"/>
+    <SolidColorBrush x:Key="SecondaryText" Color="{StaticResource SecondaryTextColor}"/>
+    <SolidColorBrush x:Key="PrimaryButton" Color="{StaticResource PrimaryButtonColor}"/>
+    <SolidColorBrush x:Key="DangerButton" Color="{StaticResource DangerButtonColor}"/>
+    <SolidColorBrush x:Key="InputBackground" Color="{StaticResource InputBackgroundColor}"/>
+    <SolidColorBrush x:Key="Accent" Color="{StaticResource AccentColor}"/>
+    <SolidColorBrush x:Key="ErrorBackground" Color="{StaticResource ErrorBackgroundColor}"/>
+    <SolidColorBrush x:Key="ErrorText" Color="{StaticResource ErrorTextColor}"/>
+    <SolidColorBrush x:Key="BorderBrush" Color="{StaticResource BorderColor}"/>
+    <SolidColorBrush x:Key="ListViewBackground" Color="{StaticResource ListViewBackgroundColor}"/>
+    <SolidColorBrush x:Key="ListViewHover" Color="{StaticResource ListViewHoverColor}"/>
+
+    <SolidColorBrush x:Key="PrimaryHueLightBrush" Color="{StaticResource PrimaryLightColor}"/>
+    <SolidColorBrush x:Key="PrimaryHueLightForegroundBrush" Color="{StaticResource TitleTextColor}"/>
+    <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="{StaticResource PrimaryButtonColor}"/>
+    <SolidColorBrush x:Key="PrimaryHueMidForegroundBrush" Color="White"/>
+    <SolidColorBrush x:Key="PrimaryHueDarkBrush" Color="{StaticResource PrimaryDarkColor}"/>
+    <SolidColorBrush x:Key="PrimaryHueDarkForegroundBrush" Color="White"/>
+
+    <SolidColorBrush x:Key="SecondaryHueLightBrush" Color="{StaticResource SecondaryLightColor}"/>
+    <SolidColorBrush x:Key="SecondaryHueLightForegroundBrush" Color="{StaticResource TitleTextColor}"/>
+    <SolidColorBrush x:Key="SecondaryHueMidBrush" Color="{StaticResource AccentColor}"/>
+    <SolidColorBrush x:Key="SecondaryHueMidForegroundBrush" Color="{StaticResource TitleTextColor}"/>
+    <SolidColorBrush x:Key="SecondaryHueDarkBrush" Color="{StaticResource SecondaryDarkColor}"/>
+    <SolidColorBrush x:Key="SecondaryHueDarkForegroundBrush" Color="White"/>
+
+    <SolidColorBrush x:Key="MaterialDesignPaper" Color="{StaticResource WindowBackgroundColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignCardBackground" Color="{StaticResource CardBackgroundColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignBackground" Color="{StaticResource WindowBackgroundColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignTextBoxBackground" Color="{StaticResource InputBackgroundColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignTextBoxBorder" Color="{StaticResource BorderColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignComboBoxBackground" Color="{StaticResource InputBackgroundColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignDatePickerBackground" Color="{StaticResource InputBackgroundColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignBody" Color="{StaticResource PrimaryTextColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignBodyLight" Color="{StaticResource SecondaryTextColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignText" Color="{StaticResource PrimaryTextColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignHeadlineText" Color="{StaticResource TitleTextColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignTitleText" Color="{StaticResource TitleTextColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignSubheadText" Color="{StaticResource PrimaryTextColor}"/>
+    <SolidColorBrush x:Key="PrimaryButtonBackground" Color="{StaticResource PrimaryButtonColor}"/>
+    <SolidColorBrush x:Key="PrimaryButtonForeground" Color="White"/>
+    <SolidColorBrush x:Key="DangerButtonBackground" Color="{StaticResource DangerButtonColor}"/>
+    <SolidColorBrush x:Key="DangerButtonForeground" Color="White"/>
+    <SolidColorBrush x:Key="ValidationErrorBackground" Color="{StaticResource ErrorBackgroundColor}"/>
+    <SolidColorBrush x:Key="ValidationErrorForeground" Color="{StaticResource ErrorTextColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignDivider" Color="{StaticResource SeparatorColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignSeparatorBackground" Color="{StaticResource SeparatorColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignToolBarBackground" Color="{StaticResource CardBackgroundColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignScrollBar" Color="{StaticResource SecondaryTextColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignSelection" Color="{StaticResource SecondaryLightColor}"/>
+
+    <Style x:Key="PageTitleStyle" TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+        <Setter Property="Foreground" Value="{StaticResource TitleText}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Margin" Value="0,0,0,16"/>
+    </Style>
+
+    <Style x:Key="SectionTitleStyle" TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+        <Setter Property="Foreground" Value="{StaticResource TitleText}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Margin" Value="0,0,0,8"/>
+    </Style>
+
+    <Style x:Key="BoldLabelStyle" TargetType="Label" BasedOn="{StaticResource {x:Type Label}}">
+        <Setter Property="Foreground" Value="{StaticResource TitleText}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="0,0,8,0"/>
+    </Style>
+
+    <Style x:Key="DefaultLabelStyle" TargetType="Label" BasedOn="{StaticResource {x:Type Label}}">
+        <Setter Property="Foreground" Value="{StaticResource PrimaryText}"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="Margin" Value="0,0,8,0"/>
+    </Style>
+
+    <Style x:Key="HintTextStyle" TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+        <Setter Property="Foreground" Value="{StaticResource SecondaryText}"/>
+        <Setter Property="FontStyle" Value="Italic"/>
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="Margin" Value="4,2,0,0"/>
+    </Style>
+
+    <Style x:Key="MaterialTextBox" TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+        <Setter Property="Background" Value="{StaticResource InputBackground}"/>
+        <Setter Property="Foreground" Value="{StaticResource PrimaryText}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Margin" Value="0,0,0,0"/>
+        <Setter Property="Height" Value="28"/>
+        <Setter Property="Padding" Value="4"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="MaterialPasswordBox" TargetType="PasswordBox">
+        <Setter Property="Background" Value="{StaticResource InputBackground}"/>
+        <Setter Property="Foreground" Value="{StaticResource PrimaryText}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Margin" Value="0,0,0,0"/>
+        <Setter Property="Height" Value="28"/>
+        <Setter Property="Padding" Value="4"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="MaterialDatePicker" TargetType="DatePicker" BasedOn="{StaticResource {x:Type DatePicker}}">
+        <Setter Property="Background" Value="{StaticResource InputBackground}"/>
+        <Setter Property="Foreground" Value="{StaticResource PrimaryText}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Margin" Value="0,4,0,8"/>
+        <Setter Property="MinHeight" Value="36"/>
+    </Style>
+
+    <Style x:Key="MaterialComboBox" TargetType="ComboBox" BasedOn="{StaticResource {x:Type ComboBox}}">
+        <Setter Property="Background" Value="{StaticResource InputBackground}"/>
+        <Setter Property="Foreground" Value="{StaticResource PrimaryText}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Margin" Value="0,4,0,8"/>
+        <Setter Property="MinHeight" Value="20"/>
+        <Setter Property="Padding" Value="8"/>
+    </Style>
+
+    <Style x:Key="MaterialPrimaryButton" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+        <Setter Property="Background" Value="{StaticResource PrimaryButton}"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="BorderBrush" Value="{StaticResource PrimaryButton}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Padding" Value="16,8"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="border"
+                        Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="4"
+                        Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource PrimaryButton}"/>
+                            <Setter TargetName="border" Property="Opacity" Value="0.9"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource PrimaryButton}"/>
+                            <Setter TargetName="border" Property="Opacity" Value="0.8"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="MaterialDangerButton" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+        <Setter Property="Background" Value="{StaticResource DangerButton}"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="BorderBrush" Value="{StaticResource DangerButton}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Padding" Value="16,8"/>
+        <Setter Property="Margin" Value="4"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="border"
+                        Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="4"
+                        Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource DangerButton}"/>
+                            <Setter TargetName="border" Property="Opacity" Value="0.9"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource DangerButton}"/>
+                            <Setter TargetName="border" Property="Opacity" Value="0.8"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="MaterialOutlineButton" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+        <Setter Property="BorderBrush" Value="{StaticResource PrimaryButton}"/>
+        <Setter Property="Foreground" Value="{StaticResource PrimaryButton}"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Padding" Value="16,8"/>
+        <Setter Property="Margin" Value="4"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="border"
+                        Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="4"
+                        Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource InputBackground}"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource ListViewHover}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="MaterialListView" TargetType="ListView" BasedOn="{StaticResource {x:Type ListView}}">
+        <Setter Property="Background" Value="{StaticResource ListViewBackground}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Margin" Value="0,8"/>
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled"/>
+        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+    </Style>
+
+    <Style x:Key="ValidationErrorStyle" TargetType="TextBox">
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="true">
+                <Setter Property="Background" Value="{StaticResource ErrorBackground}"/>
+                <Setter Property="BorderBrush" Value="{StaticResource ErrorBorder}"/>
+                <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="MaterialSeparator" TargetType="Separator">
+        <Setter Property="Background" Value="{StaticResource BorderBrush}"/>
+        <Setter Property="Margin" Value="16,8"/>
+        <Setter Property="Height" Value="1"/>
+    </Style>
+
+    <Style x:Key="FormCardStyle" TargetType="Border">
+        <Setter Property="Background" Value="{StaticResource CardBackground}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="CornerRadius" Value="8"/>
+        <Setter Property="Padding" Value="24"/>
+        <Setter Property="Margin" Value="16"/>
+    </Style>
+
+    <Style x:Key="StandardButtonStyle" TargetType="Button" BasedOn="{StaticResource MaterialPrimaryButton}"/>
+    <Style x:Key="DeleteButtonStyle" TargetType="Button" BasedOn="{StaticResource MaterialDangerButton}"/>
+    <Style x:Key="AddButtonStyle" TargetType="Button" BasedOn="{StaticResource MaterialPrimaryButton}">
+        <Setter Property="Padding" Value="6,3"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="border"
+                        Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="4"
+                        Padding="{TemplateBinding Padding}">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <TextBlock Text="+" Margin="0,0,5,0" FontWeight="Bold"/>
+                            <ContentPresenter Content="{TemplateBinding Content}"/>
+                        </StackPanel>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource PrimaryButton}"/>
+                            <Setter TargetName="border" Property="Opacity" Value="0.9"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource PrimaryButton}"/>
+                            <Setter TargetName="border" Property="Opacity" Value="0.8"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="DefaultTextBoxStyle" TargetType="TextBox" BasedOn="{StaticResource MaterialTextBox}"/>
+    <Style x:Key="DefaultPasswordBoxStyle" TargetType="PasswordBox" BasedOn="{StaticResource MaterialPasswordBox}"/>
+    <Style x:Key="DefaultDatePickerStyle" TargetType="DatePicker" BasedOn="{StaticResource MaterialDatePicker}"/>
+    <Style x:Key="DefaultComboBoxStyle" TargetType="ComboBox" BasedOn="{StaticResource MaterialComboBox}"/>
+    <Style x:Key="DefaultListViewStyle" TargetType="ListView" BasedOn="{StaticResource MaterialListView}"/>
+    <Style x:Key="DefaultBorderStyle" TargetType="Border">
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="Padding" Value="8"/>
+    </Style>
+    <Style x:Key="DefaultSeparatorStyle" TargetType="Separator">
+        <Setter Property="Margin" Value="10,0"/>
+        <Setter Property="Background" Value="{StaticResource BorderBrush}"/>
+    </Style>
+    <Style x:Key="DefaultStackPanelStyle" TargetType="StackPanel">
+        <Setter Property="Margin" Value="3"/>
+    </Style>
+
+    <Style x:Key="AppointmentTextBoxStyle" TargetType="TextBox" BasedOn="{StaticResource MaterialTextBox}">
+        <Setter Property="Margin" Value="5 30 5 5"/>
+        <Setter Property="Padding" Value="4"/>
+        <Setter Property="Height" Value="70"/>
+    </Style>
+
+</ResourceDictionary>
